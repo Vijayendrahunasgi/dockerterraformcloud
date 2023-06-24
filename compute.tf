@@ -53,7 +53,7 @@ resource "azurerm_network_security_rule" "docker_8080" {
   network_security_group_name = azurerm_network_security_group.dockerwp.name
 }
 
-resource "azurerm_network_security_rule" "docker_1527" {
+resource "azurerm_network_security_rule" "docker_3306" {
   name                        = "docker_mysql"
   priority                    = 400
   direction                   = "Inbound"
