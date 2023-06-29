@@ -115,7 +115,7 @@ resource "azurerm_virtual_machine" "vm" {
   os_profile {
     computer_name  = "dockerwp-server"
     admin_username = "vijay"
-    admin_password = "Password123!"
+    admin_password = "Password1234!"
   }
 
   os_profile_linux_config {
